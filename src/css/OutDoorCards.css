@@ -1,0 +1,48 @@
+.patio-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.patio-container h2 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.patio-container p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  margin-bottom: 20px;
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background: #ecf0f1;
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #34495e;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #7f8c8d;
+}

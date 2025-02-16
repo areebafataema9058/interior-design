@@ -1,0 +1,50 @@
+.kitchen-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.kitchen-container h2,
+.kitchen-container h3 {
+  color: #333;
+  font-weight: bold;
+}
+
+.kitchen-container p {
+  color: #666;
+  font-size: 1.1em;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background: #fff;
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #333;
+}
+
+.card-text {
+  font-size: 1em;
+  color: #666;
+}
