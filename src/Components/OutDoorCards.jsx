@@ -4,7 +4,7 @@ import img2 from "../assets/images/patioimg2.jpg"
 import img3 from "../assets/images/patioimg3.jpg"
 import img4 from "../assets/images/patioimg4.jpg"
 import img5 from "../assets/images/patioimg5.jpg"
-import "../css/OutdoorCards.css";
+import "../css/OutDoorCards.css";
 
 const OutdoorCards = () => {
   const patioItems = [
