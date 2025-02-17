@@ -5,7 +5,7 @@ import img2 from "../assets/images/bedimg2.jpg"
 import img3 from "../assets/images/bedimg3.jpg"
 import img4 from "../assets/images/bedimg4.jpg"
 import img5 from "../assets/images/bedimg5.jpg"
-import "../css/bedRoom.css"
+import "../css/BedRoom.css"
 
 
 const BedRoomCards = () => {
