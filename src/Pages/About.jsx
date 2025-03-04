@@ -1,5 +1,6 @@
 // src/components/About.jsx
-import "../css/About.css"
+import "../css/About.css";
+import { FaPaintBrush, FaCouch, FaLightbulb, FaPhoneAlt } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -8,21 +9,51 @@ const About = () => {
         <h2>About Us</h2>
         <p>
           Welcome to <span className="brand-name">Elegant Interiors</span>,
-          where we bring your vision to life with stunning interior designs. Our
-          team of expert designers is dedicated to creating unique, functional,
-          and aesthetically pleasing spaces tailored to your needs.
+          where creativity meets functionality. We specialize in designing
+          breathtaking spaces that reflect your personality and lifestyle.
         </p>
+
+        <div className="about-features">
+          <div className="feature">
+            <FaPaintBrush className="icon" />
+            <h3>Creative Designs</h3>
+            <p>
+              Our team of expert designers crafts unique and stylish interiors
+              tailored to your vision.
+            </p>
+          </div>
+
+          <div className="feature">
+            <FaCouch className="icon" />
+            <h3>Comfort & Elegance</h3>
+            <p>
+              We blend aesthetics with comfort, ensuring a perfect balance of
+              style and functionality.
+            </p>
+          </div>
+
+          <div className="feature">
+            <FaLightbulb className="icon" />
+            <h3>Innovative Solutions</h3>
+            <p>
+              Our approach focuses on smart, space-saving, and sustainable
+              interior solutions.
+            </p>
+          </div>
+        </div>
+
         <p>
           With years of experience in residential and commercial projects, we
-          specialize in modern, contemporary, and classic designs. We believe in
-          blending creativity with practicality to craft spaces that reflect
-          your personality and style.
+          are committed to transforming spaces with our passion for design.
         </p>
-        <p>
-          Let us transform your space into something truly extraordinary.
-          Contact us today to start your journey toward a beautifully designed
-          home or office.
-        </p>
+
+        <div className="contact-section">
+          <FaPhoneAlt className="icon" />
+          <p>
+            Let’s bring your dream space to life. <br />
+            <strong>Contact us today!</strong>
+          </p>
+        </div>
       </div>
     </div>
   );

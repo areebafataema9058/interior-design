@@ -1,36 +1,138 @@
-/* src/components/About.css */
+/* src/css/About.css */
+
 .about-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  background-color: #f4f4f4;
-  padding: 50px;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
 }
 
 .about-content {
-  max-width: 800px;
+  max-width: 900px;
   text-align: center;
-  background: #fff;
+  background: #ffffff;
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.about-content h2 {
+h2 {
   font-size: 2rem;
   color: #333;
   margin-bottom: 20px;
 }
 
-.about-content p {
-  font-size: 1.1rem;
-  color: #555;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
 .brand-name {
   font-weight: bold;
-  color: #c0392b;
+  color: #d49a89;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Feature Section */
+.about-features {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #d49a89;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  padding: 20px;
+  background: #d49a89;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.contact-section .icon {
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+    padding: 30px;
+  }
+
+  .about-features {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 30px 10px;
+  }
+
+  .about-content {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  .feature {
+    padding: 15px;
+  }
+
+  .icon {
+    font-size: 2rem;
+  }
 }
